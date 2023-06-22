@@ -34,6 +34,7 @@ obj = json.loads(content)
 
 # 输出返回的内容
 print(content)
+print(obj)
 
 
 
