@@ -1,6 +1,6 @@
 import urllib.request
 
-url = 'https://www.ip.cn/'
+url = 'https://www.ip.cn'
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 '
@@ -30,7 +30,7 @@ request = urllib.request.Request(url=url, headers=headers)
 # response = urllib.request.urlopen(request)
 
 proxies = {
-    'http': '223.247.47.130:8089'
+    'http': '103.237.78.102:4995'
 }
 
 # handler build_opener open
